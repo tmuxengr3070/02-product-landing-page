@@ -6,15 +6,18 @@ body {
   background-color: #ffffff;
   color: #333;
   line-height: 1.6;
+  font-size: 18px; /* Increased font size for better readability */
 }
 
 /* Hero Section */
 .hero {
   text-align: center;
-  background-color: #eaf6ff; /* soft light blue background */
+  background: linear-gradient(to right, #eaf6ff, #9fb9d3); /* Added gradient background */
+  padding: 60px 20px; /* Added padding */
 }
 
 .hero img {
+  width: 250px;
   border-radius: 50%;
   border: solid 4px #16213e;
   margin-bottom: 20px;
@@ -23,11 +26,13 @@ body {
 .hero h1 {
   margin: 20px 0 10px;
   color: #16213e;
+  font-size: 3.5em; /* Increased font size using em */
 }
 
 .hero p {
   margin: 10px 0 20px;
   color: #555;
+  font-size: 20px; /* Increased font size */
 }
 
 .hero button {
@@ -36,6 +41,8 @@ body {
   border: none;
   border-radius: 10px;
   cursor: pointer;
+  padding: 1em 2em; /* Increased button size using em */
+  font-size: 1.1em; /* Increased font size using em */
 }
 
 .hero button:hover {
@@ -48,7 +55,8 @@ body {
   text-align: center;
   background-color: #ffffff;
   margin: 40px auto;
-  max-width: 800px;
+  max-width: 900px;
+  font-size: 1.25em; /* Increased font size */
 }
 
 /* How It Works Section */
@@ -61,7 +69,8 @@ body {
 .how-it-works h2 {
   margin-top: 0;
   margin-bottom: 20px;
-  color: #0f3460
+  color: #0f3460;
+  font-size: 32px; /* Increased font size */
 }
 
 .how-it-works ol {
@@ -94,6 +103,7 @@ strong {
 .features h2 {
   margin-bottom: 20px;
   color: #1a1a2e;
+  font-size: 32px; /* Increased font size */
 }
 
 .features ul {
