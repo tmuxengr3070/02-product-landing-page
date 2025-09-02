@@ -12,9 +12,11 @@ body {
 .hero {
   text-align: center;
   background-color: #eaf6ff; /* soft light blue background */
+  padding: 50px; /* Added pixel padding for spacing */
 }
 
 .hero img {
+  width: 250px;
   border-radius: 50%;
   border: solid 4px #16213e;
   margin-bottom: 20px;
@@ -23,6 +25,7 @@ body {
 .hero h1 {
   margin: 20px 0 10px;
   color: #16213e;
+  font-size: 3.5em; /* Much larger for standout */
 }
 
 .hero p {
@@ -36,6 +39,8 @@ body {
   border: none;
   border-radius: 10px;
   cursor: pointer;
+  font-size: 1em; /* Much larger button text */
+  padding: 0.75em 2.5em; /* Adjusted for bigger button */
 }
 
 .hero button:hover {
@@ -51,6 +56,10 @@ body {
   max-width: 800px;
 }
 
+.description p {
+  font-size: 1.15em; /* Slightly larger for readability */
+}
+
 /* How It Works Section */
 .how-it-works {
   padding: 40px 20px;
@@ -61,7 +70,8 @@ body {
 .how-it-works h2 {
   margin-top: 0;
   margin-bottom: 20px;
-  color: #0f3460
+  color: #0f3460;
+  font-size: 2em; /* Slightly larger for emphasis */
 }
 
 .how-it-works ol {
