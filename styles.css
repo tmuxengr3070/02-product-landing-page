@@ -12,6 +12,7 @@ body {
 .hero {
   text-align: center;
   background-color: #eaf6ff; /* soft light blue background */
+  background-image: linear-gradient(135deg, #eaf6ff 0%, #f3e8ff 100%); /* Soft gradient */
   padding: 50px; /* Added pixel padding for spacing */
   
 }
@@ -54,11 +55,11 @@ body {
   text-align: center;
   background-color: #ffffff;
   margin: 40px auto;
-  max-width: 800px;
+  max-width: 875px;
 }
 
 .description p {
-  font-size: 1.15em; /* Slightly larger for readability */
+  font-size: 21px; /* Slightly larger for readability */
 }
 
 /* How It Works Section */
